@@ -1,5 +1,16 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+    <div>
+<about-comp></about-comp>
+    </div>
 </template>
+<script>
+import AboutComp from '@/components/Business/AboutComp.vue'
+export default{
+  components: { AboutComp },
+    data(){
+        return {
+
+        }
+    }
+}
+</script>
